@@ -13,9 +13,9 @@ public class Main {
 		
 		//勇者の生成
 		Hero h = new Hero();
-		h.name = "ミナト";
-		h.hp = 100;
-		System.out.println("勇者"+h.name+"を生み出した！");
+		h.setName("みなと");
+		h.setHp(100);
+		System.out.println("勇者"+h.getName()+"を生み出した！");
 		System.out.println();
 		
 		//聖職者の生成
