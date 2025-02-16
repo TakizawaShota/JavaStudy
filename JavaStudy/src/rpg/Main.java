@@ -16,6 +16,23 @@ public class Main {
 		h.name = "ミナト";
 		h.hp = 100;
 		System.out.println("勇者"+h.name+"を生み出した！");
+		System.out.println();
+		
+		//聖職者の生成
+		Cleric c1 = new Cleric("レナ", 30,7);
+		Cleric c2 = new Cleric("モカ", 25);
+		Cleric c3 = new Cleric("ミカ");
+		
+		System.out.println("コンストラクタ呼び出しテスト------------");
+		
+		System.out.println(c1.name+"/"+c1.hp+"/"+c1.mp);
+		System.out.println(c2.name+"/"+c2.hp+"/"+c2.mp);
+		System.out.println(c3.name+"/"+c3.hp+"/"+c3.mp);
+		
+		System.out.println("-----------------------------------------");
+//		c.name = "レナ";
+//		c.hp = 50;
+//		c.mp = 10;
 		
 		//敵の生成
 		Matango m1 = new Matango();
@@ -32,6 +49,10 @@ public class Main {
 		h.slip();
 		h.sit(25);
 		h.run();
+		
+		//聖職者の行動
+//		c.selfaid();
+//		c.play(150);
 		//敵の行動
 	}
 
