@@ -44,14 +44,14 @@ public class Main {
 //		c.hp = 50;
 //		c.mp = 10;
 		
-		//敵の生成
-		Matango m1 = new Matango();
-		m1.hp = 50;
-		m1.suffix = 'A';
-		
-		Matango m2 = new Matango();
-		m2.hp = 50;
-		m2.suffix = 'B';
+//		//敵の生成
+//		Matango m1 = new Matango();
+//		m1.hp = 50;
+//		m1.suffix = 'A';
+//		
+//		Matango m2 = new Matango();
+//		m2.hp = 50;
+//		m2.suffix = 'B';
 		
 		
 		//勇者の行動
