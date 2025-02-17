@@ -2,6 +2,7 @@ package asset;
 
 //資産を管理する抽象クラス
 public abstract class Asset {
+	
 	private String name;
 	private int price;
 	
